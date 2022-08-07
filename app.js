@@ -23,7 +23,7 @@ if(app.get("env") === "development"){
 }
 
 // trabajos con la base de datos (ejemplo debug module)
-// dbDebug("Conectando con la bd...")
+// dbDebug("Conectando con la bd...");
 
 app.use(function(req, res, next){
     // esta funcion es para demostrar cuando se ejecuta el middleware
